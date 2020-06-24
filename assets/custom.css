@@ -1,0 +1,77 @@
+/*project inventory management styling*/
+
+body, html{
+    height: 100%;
+}
+
+
+/*Auth page*/
+.bg{
+    background-image: url("../assets/img/primary-bg.png");
+    background-size: cover;
+    height: 100%;   
+}
+.auth-page{
+    height: 100%;
+}
+.login {
+    padding-top: 15% !important;
+}
+
+.transparent-back{
+    background-color: rgba(245, 245, 245, 0);
+    border: 1px solid black;
+    border-radius: 3%;
+
+}
+/*sidenav*/
+.sidenav{
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+.navigation{
+    padding-top:20px;
+}
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #F4CF02;
+    display: block;
+  }
+  .sidenav a:hover {
+    color: #b3b3b3;
+  }
+/*main*/
+.main {
+    margin-left: 250px; /* Same as the width of the sidenav */
+    padding: 0px 10px;
+  }
+
+/*img*/
+img.img-card{
+    display:block;
+    max-width: 10%;
+    height: auto;
+    border: solid 0.5px black;
+    border-radius: 50%;
+}
+
+/* scroll horizontal */
+.scrolling-wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+
+  }
+  
+    .scrolling-card {
+      flex: 0 0 auto;
+    }

@@ -1,0 +1,11 @@
+$theme-colors: (
+  "custom-color": rgb(141, 3, 141),
+  "primary" : #F4CF02
+);
+$utilities:(
+  "bg-primary" : #a3c4f0
+);
+@import "vendor/bootstrap/scss/bootstrap";
+.bg{
+  background-image: url("../assets/img/background-1.png");
+}
